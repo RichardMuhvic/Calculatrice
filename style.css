@@ -1,0 +1,120 @@
+/*   Coleur CSS HEX 
+--cod-gray: #1a1819;
+--gallery: #edecec;
+--cabaret: #d33a62;
+--suva-gray: #8c8a8b;
+--silver: #bcbcbc;
+--dove-gray: #6c6c6c;
+--carissma: #e787bc;
+--froly: #ef746c;
+--rose-bud: #fcaca4;
+*/
+
+/*   TYPOGRAPHIE
+font-family: 'Outfit', sans-serif;
+font-family: 'Outfit', sans-serif;
+*/
+
+body{
+    margin: 0;
+    background-color: #edecec;
+    font-family: 'Outfit', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+header{
+    display: flex;
+    margin-top: 100px;
+}
+header h1{
+    margin: 0;
+}
+
+
+#calculator{
+    background-color: #1a1819;
+    display: flex;
+    flex-direction: column;
+    width: 35%;
+    border-radius: 35px;
+    box-shadow: 0px 0px 40px #1a18195d;
+    margin:50px 0 50px 0;
+}
+.screen{
+    width: 100%;
+    height: 100px;
+    margin-top: 35px;
+    background-color: #292728;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2em;
+    color: #bcbcbc;
+}
+
+
+.keyboard{
+    margin: 20px 5px 20px 5px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 300px;
+}
+.grey, .light, .calculation, .result{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 25%;
+    height: 20%;
+}
+.grey:hover{
+    background-color: #6c6c6c;
+    color: #1a1819;
+    border-radius: 20px;
+}   
+.light:hover{
+    background-color: #6c6c6c;
+    border-radius: 20px;
+}
+.calculation:hover{
+    background-color: #6c6c6c;
+    border-radius: 20px;
+}
+.result:hover{
+    background-color: #ef746c ;
+    color: #1a1819;
+    border-radius: 20px;
+}
+.result{
+    color: #ef746c;
+    font-weight: bold;
+    font-size: 1.3em;
+    border-radius: 20px;
+}
+.light{
+    color: #bcbcbc;
+}
+.grey{
+    color: #6c6c6c;
+}
+.calculation{
+    color: #ef746c;
+}
+
+footer{
+    justify-content: end;
+    margin: 0;
+}
+footer p{
+    margin: 0;
+}
+footer a{
+    text-decoration: none;
+    color: #ef746c;
+    font-size: 1em;
+    font-weight: bold;
+}
